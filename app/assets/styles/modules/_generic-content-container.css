@@ -9,4 +9,9 @@
     line-height: 1.65;
     font-size: 1.125rem;
   }
+
+  img {
+    max-width:130px;
+    max-height: 115px;
+  }
 }
