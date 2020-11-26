@@ -1,0 +1,30 @@
+.row {
+
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  &--gutters > div {
+    padding-right: 65px;
+  }
+
+  &--4 {
+    float: left;
+    width: 50%;
+  }
+
+  &--4-smaller {
+    float: left;
+    width: 33.33%;
+  }
+
+  &--8 {
+    float: left;
+    width: 50%;
+    max-width: 750px;
+    max-height: 525px;
+    padding-top: 150px;
+  }
+}

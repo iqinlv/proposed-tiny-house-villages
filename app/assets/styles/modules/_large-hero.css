@@ -1,0 +1,35 @@
+.large-hero {
+  border-bottom: 10px solid green;
+  position: relative;
+
+  &__image {
+    display: block;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  &__title {
+    color: #ffff66;
+    font-size: 4.9rem;
+    background: green;
+    text-shadow: 2px 2px 0 rgba(0,0,0,.5);
+  }
+
+  &__text-content {
+    position: absolute;
+    top:0;
+    left:0;
+    transform: translateY(-20%);
+    width: 100%;
+    text-align: center;
+  }
+
+  &__subtitle {
+    color: yellow;
+    background: green;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-shadow: 2px 2px 0 rgba(0,0,0,.5);
+  }
+
+}
