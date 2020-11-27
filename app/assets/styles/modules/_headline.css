@@ -12,6 +12,10 @@
     text-shadow: 2px 2px 0 rgba(0,0,0,.2);
   }
 
+  &--icon {
+    margin-right: 2rem;
+  }
+
   &--small {
     font-size: 2.25rem;
   }

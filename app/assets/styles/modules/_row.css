@@ -6,8 +6,20 @@
     display: table;
   }
 
+  &--gutters {
+    padding-right: -65px;
+  }
+
+  &--gutters-large {
+    padding-right: -100px;
+  }
+
   &--gutters > div {
     padding-right: 65px;
+  }
+
+  &--gutters-large > div {
+    padding-right: 100px;
   }
 
   &--4 {
@@ -20,6 +32,11 @@
     width: 33.33%;
   }
 
+  &--6 {
+    float: left;
+    width: 50%;
+  }
+
   &--8 {
     float: left;
     width: 50%;
@@ -27,4 +44,5 @@
     max-height: 525px;
     padding-top: 150px;
   }
+
 }
