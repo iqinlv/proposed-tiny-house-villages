@@ -1,0 +1,21 @@
+.plan {
+  background-color: rgba(255,255,255,.8);
+  padding: 0 1.8125rem 1px 1.8125rem;
+
+  &__siteplan {
+    overflow: hidden;
+    width: 140px; /* need to adjust to size of my images*/
+    height: 130px; /* need to adjust to size of my images*/
+    border-radius: 50%;
+    margin: 0 auto -80px auto;
+    position: relative;
+    top: -80px;
+    border: 6px solid rgba(255,255,255,.8);
+  }
+
+  &__title {
+    color: #2f5572;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+}

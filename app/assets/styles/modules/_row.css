@@ -6,6 +6,10 @@
     display: table;
   }
 
+  &--t-padding {
+    padding-top: 80px;
+  }
+
   &--gutters {
     padding-right: -65px;
   }
@@ -22,6 +26,13 @@
     padding-right: 100px;
   }
 
+  &--gutters-small > div {
+    padding-right: 45px;
+  }
+
+  &--gutters-small {
+    margin-right: -45px;
+  }
   &--4 {
     float: left;
     width: 50%;
@@ -44,5 +55,15 @@
     max-height: 525px;
     padding-top: 150px;
   }
+
+  &--equal-height {
+    display: flex;
+
+    & > div {
+      float: none;
+      display: flex;
+    }
+  }
+
 
 }
