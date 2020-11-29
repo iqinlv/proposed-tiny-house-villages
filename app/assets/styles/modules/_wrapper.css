@@ -10,4 +10,8 @@
     max-width: 750px;
     max-height: 525px;
   }
+
+  &--narrow {
+    max-width: 470px;
+  }
 }

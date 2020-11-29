@@ -1,6 +1,8 @@
 import "../styles/styles.css";
 import StickyHeader from "./modules/StickyHeader";
+import Modal from "./modules/Modal";
 
+new Modal();
 let stickyHeader = new StickyHeader();
 
 if(module.hot) {
