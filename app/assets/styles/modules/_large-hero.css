@@ -13,6 +13,7 @@
     font-size: 4.9rem;
     background: green;
     text-shadow: 2px 2px 0 rgba(0,0,0,.5);
+    padding-top: 100px;
   }
 
   &__text-content {

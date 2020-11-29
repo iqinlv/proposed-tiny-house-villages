@@ -10,4 +10,7 @@
 @import "modules/_section-title.css";
 @import "modules/_village-community.css";
 @import "modules/_plan.css";
-@import "modules/_site-footer.css"
+@import "modules/_site-footer.css";
+@import "modules/_site-header.css";
+@import "modules/_primary-nav.css";
+@import "modules/_faq.css";

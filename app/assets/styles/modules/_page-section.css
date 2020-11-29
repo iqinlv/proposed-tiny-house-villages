@@ -8,6 +8,16 @@
 
     &--plans {
       background: url("assets/images/background-village-png.png") top center no-repeat;
-      background-size: cover;
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
+
+    &--blue-bg {
+      background-color: rgba(47,85,114,.5);
+      color: #FFF;
+    }
+
 }
