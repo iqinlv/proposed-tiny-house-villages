@@ -1,11 +1,17 @@
 .site-header {
   padding: 5px 0;
-  position: absolute;
+  position: fixed;
   z-index: 2;
-  background-color: rgba(47,85,114,.9);
+  background-color: rgba(47,85,114,.75);
   width: 100%;
+
+  &--dark {
+    background-color: rgba(23,51,72, .95);
+  }
 
   &__button {
     float: right;
   }
+
+
 }
