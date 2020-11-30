@@ -1,4 +1,5 @@
 import "../styles/styles.css";
+import "lazysizes";
 import StickyHeader from "./modules/StickyHeader";
 import Modal from "./modules/Modal";
 

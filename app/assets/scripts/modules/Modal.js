@@ -18,7 +18,7 @@ class Modal {
 
   keyPressHandler(e) {
     if(e.keyCode == 27) {
-      this.closeTheModal();      
+      this.closeTheModal();
     }
   }
   openTheModal(e) {
