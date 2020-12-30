@@ -7,4 +7,13 @@
       cursor: pointer;
   }
 
+  .faq_answer_container {
+	display: none;
+}
+
+.show
+{
+  display: block;
+}
+
 }
